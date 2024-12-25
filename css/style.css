@@ -1,0 +1,165 @@
+
+body {
+    font-family: "lato", sans-serif;
+    color: #586667;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato-black-webfont.eot');
+    src: url('../fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-black-webfont.svg#latoblack') format('svg'), url('../fonts/lato-black-webfont.woff') format('woff'), url('../fonts/lato-black-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato-italic-webfont.eot');
+    src: url('../fonts/lato-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-italic-webfont.svg#latoitalic') format('svg'), url('../fonts/lato-italic-webfont.woff') format('woff'), url('../fonts/lato-italic-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-regular-webfont.svg#latoregular') format('svg'), url('../fonts/lato-regular-webfont.woff') format('woff'), url('../fonts/lato-regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato-light-webfont.eot');
+    src: url('../fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-light-webfont.svg#latolight') format('svg'), url('../fonts/lato-light-webfont.woff') format('woff'), url('../fonts/lato-light-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    select {
+      font-family: sans-serif;
+    }
+  }
+
+p,h1,h2,h3,h4 {
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    font-size: 72px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: #1f3f50;
+    font-weight: 500;
+    background-color: #F0F0F4;
+}
+
+h2 {
+    font-weight: 200;
+    padding-bottom: 50px;
+    line-height: 150%;
+}
+
+h3 {
+    padding-top: 1.5em;
+    font-size: 3em;
+    font-weight: 200;
+}
+
+h4 {
+    padding-top: 0.4em;
+    padding-bottom: 2.5em;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+p {
+    line-height: 150%;
+    padding-top: 1.5em;
+}
+
+p + p {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+p + div {
+    margin-top: 1em;
+}
+
+ol {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+}
+
+li {
+    margin-left: 3em;
+    font-weight: normal;
+    padding-top: 0.8em;
+}
+
+div.black_container {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+div.transparent_container {
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+div.pink_container {
+    background-color: #F16EBC;
+    box-sizing: border-box;
+}
+
+div.light_grey_container {
+    margin-top: 3em;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    background-color: #F0F0F4;
+    box-sizing: border-box;
+}
+
+img.center_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.image_30_percent {
+    width: 30%;
+}
+
+img.image_40_percent {
+    width: 40%;
+}
+
+img.image_50_percent {
+    width: 50%;
+}
+
+img.image_60_percent {
+    width: 60%;
+}
+
+img.image_70_percent {
+    width: 70%;
+}
+
+img.image_80_percent {
+    width: 80%;
+}
+
+img.image_90_percent {
+    width: 90%;
+}
+
+img.image_100_percent {
+    width: 100%;
+}
+
+img.bgb {
+    background-color: black;
+}
